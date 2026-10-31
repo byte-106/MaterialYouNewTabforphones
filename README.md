@@ -1,24 +1,24 @@
 <!-- Initialized : Sun 20 Aug 2023 03:41:08 PM IST -->
 <h1 align="center">
 
-<a href="https://prem-k-r.github.io/MaterialYouNewTab/"><img src="https://github.com/user-attachments/assets/48c3a9cb-06fa-4c45-92ec-194cdb7c5661" width="58"></a>
+<a href="https://byte-106.github.io/MaterialYouNewTabforphones/"><img src="https://github.com/user-attachments/assets/48c3a9cb-06fa-4c45-92ec-194cdb7c5661" width="58"></a>
 <br>
-MYNT: Material You New Tab
+MYNTFP: Material You New Tab for Phones
 
 </h1>
 <div align="center">
 
-MYNT: Material You New Tab is a versatile browser extension that personalizes your New Tab page with customizable themes, a welcoming message, and various handy tools, all while integrating seamlessly with your preferred search engine.
+MYNTFP: Material You New Tab for Phones is a versatile browser extension that personalizes your New Tab page with customizable themes, a welcoming message, and various handy tools, all while integrating seamlessly with your preferred search engine.
 
 </div>
 
 <div align="center">
 
-![License](https://img.shields.io/github/license/prem-k-r/MaterialYouNewTab)
-![Last Commit](https://img.shields.io/github/last-commit/prem-k-r/MaterialYouNewTab)
-![GitHub contributors](https://img.shields.io/github/contributors/prem-k-r/MaterialYouNewTab)
-![GitHub stars](https://img.shields.io/github/stars/prem-k-r/MaterialYouNewTab)
-![GitHub forks](https://img.shields.io/github/forks/prem-k-r/MaterialYouNewTab)
+![License](https://img.shields.io/github/license/byte-106/MaterialYouNewTabforphones)
+![Last Commit](https://img.shields.io/github/last-commit/byte-106/MaterialYouNewTabforphones)
+![GitHub contributors](https://img.shields.io/github/contributors/byte-106/MaterialYouNewTabforphones)
+![GitHub stars](https://img.shields.io/github/stars/byte-106/MaterialYouNewTabforphones)
+![GitHub forks](https://img.shields.io/github/forks/byte-106/MaterialYouNewTabforphones)
 
 [![](https://img.shields.io/chrome-web-store/v/jjpokbgpiljgndebfoljdeihhkpcpfgl.svg)](https://chrome.google.com/webstore/detail/mynt-material-you-new-tab/jjpokbgpiljgndebfoljdeihhkpcpfgl) [![](https://img.shields.io/chrome-web-store/rating/jjpokbgpiljgndebfoljdeihhkpcpfgl.svg)](https://chrome.google.com/webstore/detail/mynt-material-you-new-tab/jjpokbgpiljgndebfoljdeihhkpcpfgl) [![](https://img.shields.io/chrome-web-store/users/jjpokbgpiljgndebfoljdeihhkpcpfgl.svg)](https://chrome.google.com/webstore/detail/mynt-material-you-new-tab/jjpokbgpiljgndebfoljdeihhkpcpfgl) ▪️ [![](https://img.shields.io/amo/v/mynt.svg)](https://addons.mozilla.org/en-US/firefox/addon/mynt/) [![](https://img.shields.io/amo/rating/mynt.svg)](https://addons.mozilla.org/en-US/firefox/addon/mynt/) [![](https://img.shields.io/amo/users/mynt.svg)](https://addons.mozilla.org/en-US/firefox/addon/mynt/) ▪️ [![](https://img.shields.io/badge/dynamic/json?label=edge%20add-on&prefix=v&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Flcgdmfjofmcblocogcabdpfidfbkblcd)](https://microsoftedge.microsoft.com/addons/detail/mynt-material-you-new-ta/lcgdmfjofmcblocogcabdpfidfbkblcd)
 [![](https://img.shields.io/badge/dynamic/json?label=rating&suffix=/5&query=%24.averageRating&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Flcgdmfjofmcblocogcabdpfidfbkblcd)](https://microsoftedge.microsoft.com/addons/detail/mynt-material-you-new-ta/lcgdmfjofmcblocogcabdpfidfbkblcd)
@@ -41,7 +41,7 @@ MYNT: Material You New Tab is a versatile browser extension that personalizes yo
 
 <img src="https://i.postimg.cc/CF43Yzj1/material-you-new-Tab-poster.webp" alt="Screenshot 1" width="100%">
 
-#### 🔴 🟡 🟢 Test live: [https://prem-k-r.github.io/MaterialYouNewTab/](https://prem-k-r.github.io/MaterialYouNewTab/)
+#### 🔴 🟡 🟢 Test live: [https://byte-106.github.io/MaterialYouNewTabforphones/](https://byte-106.github.io/MaterialYouNewTabforphones/)
 
 ## ✨ Features
 
@@ -70,19 +70,19 @@ MYNT: Material You New Tab is a versatile browser extension that personalizes yo
       Use the following command to clone the repository:
 
        ```bash
-       git clone https://github.com/prem-k-r/MaterialYouNewTab.git
+       git clone https://github.com/byte-106/MaterialYouNewTabforphones.git
        ```
 
     - Alternatively, download the latest version as a ZIP file by clicking below:
 
-      [![Download ZIP](https://img.shields.io/badge/Download-ZIP-blue.svg)](https://github.com/prem-k-r/MaterialYouNewTab/archive/refs/heads/main.zip)
+      [![Download ZIP](https://img.shields.io/badge/Download-ZIP-blue.svg)](https://github.com/byte-106/MaterialYouNewTabforphones/archive/refs/heads/main.zip)
 
     - You can also download the ZIP file by clicking on the Code button. On the repository page, look for a green button labeled **Code**. Click on the **Code** button, and in the dropdown menu, select **Download ZIP**.
 
 2. **Stable Release** (v3.3)
 
 <p align="center">
-    <a href="https://github.com/prem-k-r/MaterialYouNewTab/releases/latest"><img src="https://github.com/user-attachments/assets/51048d6d-0b35-4f62-8351-4a3ea52d2213" alt="Download from GitHub" height="48" /></a>
+    <a href="https://github.com/byte-106/MaterialYouNewTabforphones/releases/latest"><img src="https://github.com/user-attachments/assets/51048d6d-0b35-4f62-8351-4a3ea52d2213" alt="Download from GitHub" height="48" /></a>
     <a href="https://chromewebstore.google.com/detail/mynt-material-you-new-tab/jjpokbgpiljgndebfoljdeihhkpcpfgl"><img src="https://github.com/user-attachments/assets/7a829ba4-dcd0-452b-922a-5efacbfda498" alt="Download from Chrome Web Store" height="48" /></a>
     <a href="https://microsoftedge.microsoft.com/addons/detail/mynt-material-you-new-ta/lcgdmfjofmcblocogcabdpfidfbkblcd"><img src="https://github.com/user-attachments/assets/3ad87ccf-92bf-4dab-bdf4-6577c3305d54" alt="Download from Microsoft Edge" height="48" /></a>
     <a href="https://addons.mozilla.org/en-US/firefox/addon/mynt/"><img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" alt="Download from Mozilla Add-ons" height="48" /></a>
@@ -251,9 +251,9 @@ For a step-by-step walkthrough, watch this [installation guide video](https://yo
 | <img src='https://flagcdn.com/uz.svg' width=20> &nbsp; **Uzbek** - O'zbek                    |  uz   | [Firdavs](https://github.com/Firdavs9512/), [S0ME2](https://github.com/S0ME2/)                                            |
 | <img src='https://flagcdn.com/vn.svg' width=20> &nbsp; **Vietnamese** - Tiếng Việt           |  vn   | [Diep](https://github.com/diepdo1810/), [Tuan](https://github.com/Tuan1-2-3)          |
 
-Check the [Translation Status Page](https://prem-k-r.github.io/MaterialYouNewTab/tools/languagesAnalysis.html) for an overview of completed languages and missing strings analysis.
+Check the [Translation Status Page](https://byte-106.github.io/MaterialYouNewTabforphones/tools/languagesAnalysis.html) for an overview of completed languages and missing strings analysis.
 
-If you'd like to contribute quotes in any of the languages used in MYNT, check out [Multilingual Quotes](https://github.com/prem-k-r/multilingual-quotes-api).
+If you'd like to contribute quotes in any of the languages used in MYNTFP, check out [Multilingual Quotes](https://github.com/prem-k-r/multilingual-quotes-api).
 
 ## 🤝 Contributing
 
@@ -268,31 +268,31 @@ Contributions are welcome! If you’d like to contribute:
 
 ## ⭐ Star History
 
-Here is the star history chart for the **MYNT: Material You New Tab** repository. It shows the growth of stars over time, reflecting the increasing interest and support for the project.
+Here is the star history chart for the **MYNTFP: Material You New Tab for Phones** repository. It shows the growth of stars over time, reflecting the increasing interest and support for the project.
 
-<a href="https://star-history.dera.page/prem-k-r/MaterialYouNewTab">
+<a href="https://star-history.dera.page/byte-106/MaterialYouNewTabforphones">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://star-history.dera.page/svg?repos=prem-k-r/MaterialYouNewTab&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://star-history.dera.page/svg?repos=prem-k-r/MaterialYouNewTab" />
-    <img alt="Star History Chart" src="https://star-history.dera.page/svg?repos=prem-k-r/MaterialYouNewTab" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://star-history.dera.page/svg?repos=byte-106/MaterialYouNewTabforphones&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://star-history.dera.page/svg?repos=byte-106/MaterialYouNewTabforphones" />
+    <img alt="Star History Chart" src="https://star-history.dera.page/svg?repos=byte-106/MaterialYouNewTabforphones" />
   </picture>
 </a>
 
 ## ❓ Issues and Support
 
-- If you encounter any issues or bugs, feel free to open an issue on [GitHub](https://github.com/prem-k-r/MaterialYouNewTab/issues).
+- If you encounter any issues or bugs, feel free to open an issue on [GitHub](https://github.com/byte-106/MaterialYouNewTabforphones/issues).
 - For general questions or support, you can contact the repository maintainers through the **Telegram group**: [Join here](https://t.me/Material_You_NewTab).
 
 ## 🛡 Privacy Policy
 
-MYNT: Material You New Tab prioritizes your privacy and is focused solely on providing a better browsing experience.
+MYNTFP: Material You New Tab for Phones prioritizes your privacy and is focused solely on providing a better browsing experience.
 We make the following commitments:
 
 - **No commercialization** — absolutely no ads, paid features, or premium tiers
 - **No trackers** — no data collection, analytics, or background reporting of any kind
 - **No access to personal information** — all settings, cache, and preferences are stored locally in your browser
 
-For more details, read our [Privacy Policy](https://prem-k-r.github.io/MaterialYouNewTab/privacy-policy.html).
+For more details, read our [Privacy Policy](https://byte-106.github.io/MaterialYouNewTabforphones/privacy-policy.html).
 
 ## 📜 License
 
@@ -300,6 +300,6 @@ Copyright (C) 2024-2026 Prem Kumar
 
 Copyright (C) 2023-2025 XengShi
 
-> This extension is the continuation of XengShi's Material You NewTab [(_Learn more_)](https://github.com/prem-k-r/MaterialYouNewTab/discussions/28#discussioncomment-13837571).
+> This extension is the continuation of XengShi's Material You NewTab [(_Learn more_)](https://github.com/byte-106/MaterialYouNewTabforphones/discussions/28#discussioncomment-13837571).
 
-This project is licensed under the GNU General Public License v3.0 (GPL-3.0). This means you must **not** distribute this software, whether original or modified, to any platform **without** its source code or the reference to its original source code. See the [LICENSE](https://github.com/prem-k-r/MaterialYouNewTab/blob/main/LICENSE) file for details.
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0). This means you must **not** distribute this software, whether original or modified, to any platform **without** its source code or the reference to its original source code. See the [LICENSE](https://github.com/byte-106/MaterialYouNewTabforphones/blob/main/LICENSE) file for details.

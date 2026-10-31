@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy for MYNT</title>
+    <title>Privacy Policy for MYNTFP</title>
     <link href="favicon/icon128.png" rel="icon">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <style>
@@ -135,10 +135,10 @@
     </button>
 
     <div class="container" id="mainContainer">
-        <h1>Privacy Policy for MYNT: Material You New Tab</h1>
+        <h1>Privacy Policy for MYNTFP: Material You New Tab for Phones</h1>
 
         <h2>Introduction</h2>
-        <p>"MYNT: Material You New Tab" is an open-source extension designed to enhance the appearance of your browser’s
+        <p>"MYNTFP: Material You New Tab for Phones" is an open-source extension designed to enhance the appearance of your browser’s
             default home page and new tab. It was originally developed as a personal project using HTML, CSS, and
             JavaScript. Due to positive feedback, it was later made available on both the Firefox and Chrome Web Stores.
         </p>
@@ -151,7 +151,7 @@
         </p>
 
         <h2>Data Collection and Permissions</h2>
-        <p>MYNT: Material You New Tab prioritizes your privacy and is focused solely on providing a better browsing
+        <p>MYNTFP: Material You New Tab for Phones prioritizes your privacy and is focused solely on providing a better browsing
             experience. This extension does <strong>not collect</strong>, <strong>store</strong>, or
             <strong>share</strong> any personal data. All processing is done locally within your browser. No analytics,
             tracking scripts, or remote logging systems are included.
@@ -234,12 +234,12 @@
 
         <h3>Proxy Server (Optional)</h3>
         <p>
-            MYNT: Material You New Tab includes an optional proxy feature that is <strong>disabled by default</strong>.
+            MYNTFP: Material You New Tab for Phones includes an optional proxy feature that is <strong>disabled by default</strong>.
             This feature can be used to bypass CORS restrictions when fetching search suggestions.
         </p>
         <p>
             For users who wish to enable this feature, we <strong>highly recommend <a
-                    href="https://github.com/Minuga-RC/MYNT-CORS-Bypass-Proxy" target="_blank">hosting your own
+                    href="https://github.com/Minuga-RC/MYNTFP-CORS-Bypass-Proxy" target="_blank">hosting your own
                     proxy server</a></strong> to maintain full control and ensure maximum privacy.
         </p>
         <p>
@@ -254,7 +254,7 @@
             you are fully comfortable with its contents.</p>
 
         <h2>Thank You</h2>
-        <p>Thank you for your trust in the MYNT: Material You New Tab extension. We hope it enhances your browsing
+        <p>Thank you for your trust in the MYNTFP: Material You New Tab for Phones extension. We hope it enhances your browsing
             experience with every new tab you open!</p>
 
     </div>
@@ -265,7 +265,7 @@
         const toggleBtn = document.getElementById('darkModeToggle');
         const container = document.getElementById('mainContainer');
         const iconPath = document.getElementById('iconPath');
-        let isDark = localStorage.getItem('mynt-dark-mode');
+        let isDark = localStorage.getItem('myntfp-dark-mode');
 
         // SVG paths
         const moonPath = "M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z";
@@ -275,7 +275,7 @@
             document.body.classList.toggle('dark-mode', isDark);
             container.classList.toggle('dark-mode', isDark);
             iconPath.setAttribute('d', isDark ? sunPath : moonPath);
-            localStorage.setItem('mynt-dark-mode', isDark);
+            localStorage.setItem('myntfp-dark-mode', isDark);
         }
 
         // Determine initial state

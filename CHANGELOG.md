@@ -13,33 +13,33 @@ and this project partially follows [Semantic Versioning](https://semver.org/spec
 - `Localized` - for updates related to translations, localization, or internationalization.
 - `Other` - for technical updates.
 
-## [Unreleased](https://github.com/prem-k-r/MaterialYouNewTab/compare/v3.3...main)
+## [Unreleased](https://github.com/byte-106/MaterialYouNewTabforphones/compare/v3.3...main)
 
 ### Added
 
-- Added support for touch-swipe and mouse-wheel gestures on the search engine icon to switch search engines when they are hidden ([@prem-k-r](https://github.com/prem-k-r)) ([#145](https://github.com/prem-k-r/MaterialYouNewTab/pull/145))
-- Added support for custom shortcut icons via upload, URL, or pasted SVG ([@smurf11k](https://github.com/smurf11k)), ([@prem-k-r](https://github.com/prem-k-r)) ([#187](https://github.com/prem-k-r/MaterialYouNewTab/pull/187/)), ([#199](https://github.com/prem-k-r/MaterialYouNewTab/pull/199/))
-- Added Daily Quote option to show one quote per day instead of refreshing on every new tab ([@KomeshBathula](https://github.com/KomeshBathula)) ([#141](https://github.com/prem-k-r/MaterialYouNewTab/pull/141))
-- Added keyboard shortcuts (`Alt + 1`–`9`) to quickly open the first nine shortcuts ([@smurf11k](https://github.com/smurf11k)) ([#237](https://github.com/prem-k-r/MaterialYouNewTab/pull/237))
+- Added support for touch-swipe and mouse-wheel gestures on the search engine icon to switch search engines when they are hidden ([@prem-k-r](https://github.com/prem-k-r)) ([#145](https://github.com/byte-106/MaterialYouNewTabforphones/pull/145))
+- Added support for custom shortcut icons via upload, URL, or pasted SVG ([@smurf11k](https://github.com/smurf11k)), ([@prem-k-r](https://github.com/prem-k-r)) ([#187](https://github.com/byte-106/MaterialYouNewTabforphones/pull/187/)), ([#199](https://github.com/byte-106/MaterialYouNewTabforphones/pull/199/))
+- Added Daily Quote option to show one quote per day instead of refreshing on every new tab ([@KomeshBathula](https://github.com/KomeshBathula)) ([#141](https://github.com/byte-106/MaterialYouNewTabforphones/pull/141))
+- Added keyboard shortcuts (`Alt + 1`–`9`) to quickly open the first nine shortcuts ([@smurf11k](https://github.com/smurf11k)) ([#237](https://github.com/byte-106/MaterialYouNewTabforphones/pull/237))
 - Added Google AI Mode search button to the search bar when using Google as the search engine ([@KomeshBathula](https://github.com/KomeshBathula))
-- Updated the search bar to bypass search engines and navigate directly to webpages when the input contains no spaces and begins strictly with `http://`, `https://`, or `www.` ([@prem-k-r](https://github.com/prem-k-r)) ([#255](https://github.com/prem-k-r/MaterialYouNewTab/pull/255))
+- Updated the search bar to bypass search engines and navigate directly to webpages when the input contains no spaces and begins strictly with `http://`, `https://`, or `www.` ([@prem-k-r](https://github.com/prem-k-r)) ([#255](https://github.com/byte-106/MaterialYouNewTabforphones/pull/255))
 
 ### Improved
 
-- Introduced collapsible sections in the settings menu for improved organization and easier navigation ([@prem-k-r](https://github.com/prem-k-r)) ([#109](https://github.com/prem-k-r/MaterialYouNewTab/pull/109))
-- Redesigned the theme selector from dropdown to buttons for easier switching between Light, Dark, and System modes ([@prem-k-r](https://github.com/prem-k-r)) ([#112](https://github.com/prem-k-r/MaterialYouNewTab/pull/112))
-- Added expanding animations to todo and Google apps panels and some other minor UI changes ([@prem-k-r](https://github.com/prem-k-r)) ([#118](https://github.com/prem-k-r/MaterialYouNewTab/pull/118))
-- Prevented weather condition and shortcut icons from being color-inverted in dark mode ([@prem-k-r](https://github.com/prem-k-r)) ([#191](https://github.com/prem-k-r/MaterialYouNewTab/pull/191))
-- Improved fallback behavior of shortcut icons to first-letter icons when custom icons fail to load or when offline ([@prem-k-r](https://github.com/prem-k-r)) ([#187](https://github.com/prem-k-r/MaterialYouNewTab/pull/187/))
-- Disabled dragging for weather and location icons ([@anndiy](https://github.com/anndiy)) ([#183](https://github.com/prem-k-r/MaterialYouNewTab/pull/183))
-- Added support for right-click to access AI Tools settings ([@prem-k-r](https://github.com/prem-k-r)) ([#210](https://github.com/prem-k-r/MaterialYouNewTab/pull/210/))
+- Introduced collapsible sections in the settings menu for improved organization and easier navigation ([@prem-k-r](https://github.com/prem-k-r)) ([#109](https://github.com/byte-106/MaterialYouNewTabforphones/pull/109))
+- Redesigned the theme selector from dropdown to buttons for easier switching between Light, Dark, and System modes ([@prem-k-r](https://github.com/prem-k-r)) ([#112](https://github.com/byte-106/MaterialYouNewTabforphones/pull/112))
+- Added expanding animations to todo and Google apps panels and some other minor UI changes ([@prem-k-r](https://github.com/prem-k-r)) ([#118](https://github.com/byte-106/MaterialYouNewTabforphones/pull/118))
+- Prevented weather condition and shortcut icons from being color-inverted in dark mode ([@prem-k-r](https://github.com/prem-k-r)) ([#191](https://github.com/byte-106/MaterialYouNewTabforphones/pull/191))
+- Improved fallback behavior of shortcut icons to first-letter icons when custom icons fail to load or when offline ([@prem-k-r](https://github.com/prem-k-r)) ([#187](https://github.com/byte-106/MaterialYouNewTabforphones/pull/187/))
+- Disabled dragging for weather and location icons ([@anndiy](https://github.com/anndiy)) ([#183](https://github.com/byte-106/MaterialYouNewTabforphones/pull/183))
+- Added support for right-click to access AI Tools settings ([@prem-k-r](https://github.com/prem-k-r)) ([#210](https://github.com/byte-106/MaterialYouNewTabforphones/pull/210/))
 
 ### Fixed
 
-- Fixed an issue where rapid clicks on the AI Tools icon caused race conditions, leading to inconsistent shortcuts panel visibility. ([@prem-k-r](https://github.com/prem-k-r)) ([#118](https://github.com/prem-k-r/MaterialYouNewTab/pull/118))
-- Fixed shortcut name and URLs hover behavior by replacing ellipsis with clipped text for improved readability ([@prem-k-r](https://github.com/prem-k-r)) ([283f78d](https://github.com/prem-k-r/MaterialYouNewTab/pull/199/changes/283f78d6e4b202a075ca3d670c1b30cbc701c3a4))
-- Fixed wallpaper disappearing on load due to blob URL being revoked too early ([@prem-k-r](https://github.com/prem-k-r)) ([#209](https://github.com/prem-k-r/MaterialYouNewTab/pull/209))
-- Fixed the page briefly flashing blue (FOUC) when opening a new tab by applying saved themes before the page renders ([@itz-rj-here](https://github.com/itz-rj-here)) ([#238](https://github.com/prem-k-r/MaterialYouNewTab/pull/238))
+- Fixed an issue where rapid clicks on the AI Tools icon caused race conditions, leading to inconsistent shortcuts panel visibility. ([@prem-k-r](https://github.com/prem-k-r)) ([#118](https://github.com/byte-106/MaterialYouNewTabforphones/pull/118))
+- Fixed shortcut name and URLs hover behavior by replacing ellipsis with clipped text for improved readability ([@prem-k-r](https://github.com/prem-k-r)) ([283f78d](https://github.com/byte-106/MaterialYouNewTabforphones/pull/199/changes/283f78d6e4b202a075ca3d670c1b30cbc701c3a4))
+- Fixed wallpaper disappearing on load due to blob URL being revoked too early ([@prem-k-r](https://github.com/prem-k-r)) ([#209](https://github.com/byte-106/MaterialYouNewTabforphones/pull/209))
+- Fixed the page briefly flashing blue (FOUC) when opening a new tab by applying saved themes before the page renders ([@itz-rj-here](https://github.com/itz-rj-here)) ([#238](https://github.com/byte-106/MaterialYouNewTabforphones/pull/238))
 
 ### Localized
 
@@ -60,38 +60,38 @@ and this project partially follows [Semantic Versioning](https://semver.org/spec
   - Simplified Chinese ([@HdShare](https://github.com/HdShare))
   - Traditional Chinese ([@Eddie40802](https://github.com/Eddie40802))
   - Korean ([@channel101](https://github.com/channel101))
-- Corrected abbreviations for months and days of the week in Russian ([@Ayyas-RF](https://github.com/Ayyas-RF)) ([#105](https://github.com/prem-k-r/MaterialYouNewTab/pull/105))
-- Added support for Ukrainian ([@lozik4](https://github.com/lozik4)) ([#106](https://github.com/prem-k-r/MaterialYouNewTab/pull/106))
-- Added support for Swedish ([@empohello-imamempogitub](https://github.com/empohello-imamempogitub)) ([#179](https://github.com/prem-k-r/MaterialYouNewTab/pull/179))
+- Corrected abbreviations for months and days of the week in Russian ([@Ayyas-RF](https://github.com/Ayyas-RF)) ([#105](https://github.com/byte-106/MaterialYouNewTabforphones/pull/105))
+- Added support for Ukrainian ([@lozik4](https://github.com/lozik4)) ([#106](https://github.com/byte-106/MaterialYouNewTabforphones/pull/106))
+- Added support for Swedish ([@empohello-imamempogitub](https://github.com/empohello-imamempogitub)) ([#179](https://github.com/byte-106/MaterialYouNewTabforphones/pull/179))
 - Localized New Tab title ([@prem-k-r](https://github.com/prem-k-r))
 
 ### Other
 
 - Miscellaneous improvements ([@prem-k-r](https://github.com/prem-k-r))
-- Docs: Fixed broken star history chart link in README ([@FaintFlower](https://github.com/FaintFlower)) ([#248](https://github.com/prem-k-r/MaterialYouNewTab/pull/248))
+- Docs: Fixed broken star history chart link in README ([@FaintFlower](https://github.com/FaintFlower)) ([#248](https://github.com/byte-106/MaterialYouNewTabforphones/pull/248))
 
-## [v3.3](https://github.com/prem-k-r/MaterialYouNewTab/compare/v3.2...v3.3) - Nov 23, 2025
+## [v3.3](https://github.com/byte-106/MaterialYouNewTabforphones/compare/v3.2...v3.3) - Nov 23, 2025
 
 ### Added
 
-- Added “Follow System Theme” option to the theme dropdown, allowing automatic switching between Light and Dark themes based on the system’s current appearance ([@heshamoomar](https://github.com/heshamoomar)) ([#80](https://github.com/prem-k-r/MaterialYouNewTab/pull/80))
-- Added toast notification to hide the footer for Chromium users ([@prem-k-r](https://github.com/prem-k-r)) ([#89](https://github.com/prem-k-r/MaterialYouNewTab/pull/89))
+- Added “Follow System Theme” option to the theme dropdown, allowing automatic switching between Light and Dark themes based on the system’s current appearance ([@heshamoomar](https://github.com/heshamoomar)) ([#80](https://github.com/byte-106/MaterialYouNewTabforphones/pull/80))
+- Added toast notification to hide the footer for Chromium users ([@prem-k-r](https://github.com/prem-k-r)) ([#89](https://github.com/byte-106/MaterialYouNewTabforphones/pull/89))
 
 ### Improved
 
-- Updated search suggestion behavior to autocomplete the current search term upon selection via keyboard ([@prem-k-r](https://github.com/prem-k-r)), ([@itz-rj-here](https://github.com/itz-rj-here)) ([#33](https://github.com/prem-k-r/MaterialYouNewTab/pull/33))
-- Added minimum width constraint to the custom text input box ([@anugrahrk](https://github.com/anugrahrk)) ([#70](https://github.com/prem-k-r/MaterialYouNewTab/pull/70))
-- Smoothed the opening and closing animation for search dropdown ([@prem-k-r](https://github.com/prem-k-r)) ([#83](https://github.com/prem-k-r/MaterialYouNewTab/pull/83))
+- Updated search suggestion behavior to autocomplete the current search term upon selection via keyboard ([@prem-k-r](https://github.com/prem-k-r)), ([@itz-rj-here](https://github.com/itz-rj-here)) ([#33](https://github.com/byte-106/MaterialYouNewTabforphones/pull/33))
+- Added minimum width constraint to the custom text input box ([@anugrahrk](https://github.com/anugrahrk)) ([#70](https://github.com/byte-106/MaterialYouNewTabforphones/pull/70))
+- Smoothed the opening and closing animation for search dropdown ([@prem-k-r](https://github.com/prem-k-r)) ([#83](https://github.com/byte-106/MaterialYouNewTabforphones/pull/83))
 
 ### Fixed
 
-- Search dropdown no longer throws an error when Enter is pressed without a selected item ([@prem-k-r](https://github.com/prem-k-r)) ([#83](https://github.com/prem-k-r/MaterialYouNewTab/pull/83))
+- Search dropdown no longer throws an error when Enter is pressed without a selected item ([@prem-k-r](https://github.com/prem-k-r)) ([#83](https://github.com/byte-106/MaterialYouNewTabforphones/pull/83))
 
 ### Localized
 
-- Adjusted Chinese date formatting ([@quantumfallout](https://github.com/quantumfallout)) ([#43](https://github.com/prem-k-r/MaterialYouNewTab/pull/43))
-- Added support for Polish ([@dawid9707](https://github.com/dawid9707)) ([#55](https://github.com/prem-k-r/MaterialYouNewTab/pull/55))
-- Corrected the display of Arabic numerals in the digital clock and opacity slider ([@heshamoomar](https://github.com/heshamoomar)) ([#78](https://github.com/prem-k-r/MaterialYouNewTab/pull/78))
+- Adjusted Chinese date formatting ([@quantumfallout](https://github.com/quantumfallout)) ([#43](https://github.com/byte-106/MaterialYouNewTabforphones/pull/43))
+- Added support for Polish ([@dawid9707](https://github.com/dawid9707)) ([#55](https://github.com/byte-106/MaterialYouNewTabforphones/pull/55))
+- Corrected the display of Arabic numerals in the digital clock and opacity slider ([@heshamoomar](https://github.com/heshamoomar)) ([#78](https://github.com/byte-106/MaterialYouNewTabforphones/pull/78))
 - Translation updated for:
   - Russian ([@giwih](https://github.com/giwih)), ([@Ayyas-RF](https://github.com/Ayyas-RF))
   - Spanish ([@zRaidev](https://github.com/zRaidev))
@@ -105,7 +105,7 @@ and this project partially follows [Semantic Versioning](https://semver.org/spec
 
 ### Other
 
-- Docs: Added dark mode to privacy policy page ([@itz-rj-here](https://github.com/itz-rj-here)) ([#32](https://github.com/prem-k-r/MaterialYouNewTab/pull/32))
+- Docs: Added dark mode to privacy policy page ([@itz-rj-here](https://github.com/itz-rj-here)) ([#32](https://github.com/byte-106/MaterialYouNewTabforphones/pull/32))
 - Chores ([@prem-k-r](https://github.com/prem-k-r)), ([@itz-rj-here](https://github.com/itz-rj-here))
 
 ## [v3.2](https://github.com/XengShi/materialYouNewTab/compare/v3...v3.2) - July 20, 2025

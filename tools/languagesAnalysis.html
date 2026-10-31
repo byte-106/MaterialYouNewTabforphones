@@ -5,17 +5,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link rel="shortcut icon" href="../favicon/icon48.png" type="image/png">
-    <title>MYNT Language Key Analysis</title>
+    <title>MYNTFP Language Key Analysis</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style.css">
     <style>
-        .mynt-lka {
-            --mynt-round: 20px;
-            --mynt-gap: 16px;
-            --mynt-shadow: 0 4px 12px rgba(27, 48, 65, 0.08);
-            --mynt-shadow-hover: 0 6px 20px rgba(27, 48, 65, 0.12);
+        .myntfp-lka {
+            --myntfp-round: 20px;
+            --myntfp-gap: 16px;
+            --myntfp-shadow: 0 4px 12px rgba(27, 48, 65, 0.08);
+            --myntfp-shadow-hover: 0 6px 20px rgba(27, 48, 65, 0.12);
             font-family: var(--main-font-family);
             margin: 0;
             padding: 0;
@@ -30,26 +30,26 @@
             transition: background 0.3s ease, color 0.3s ease;
         }
 
-        .mynt-lka.dark-mode {
+        .myntfp-lka.dark-mode {
             background: #0f1a28;
             color: var(--whitishColor-blue);
-            --mynt-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
-            --mynt-shadow-hover: 0 2px 8px rgba(0, 0, 0, 0.2);
+            --myntfp-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+            --myntfp-shadow-hover: 0 2px 8px rgba(0, 0, 0, 0.2);
         }
 
         /* ── Header ── */
-        .mynt-lka .tool-header {
+        .myntfp-lka .tool-header {
             background: linear-gradient(135deg, var(--darkColor-blue) 0%, var(--darkerColor-blue) 100%);
             color: var(--whitishColor-blue);
             padding: 0.8rem 2rem;
-            box-shadow: var(--mynt-shadow);
+            box-shadow: var(--myntfp-shadow);
             position: sticky;
             top: 0;
             z-index: 10;
-            animation: mynt-headerSlide 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+            animation: myntfp-headerSlide 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
         }
 
-        @keyframes mynt-headerSlide {
+        @keyframes myntfp-headerSlide {
             from {
                 opacity: 0;
                 transform: translateY(-12px);
@@ -61,22 +61,22 @@
             }
         }
 
-        .mynt-lka .tool-header-inner {
+        .myntfp-lka .tool-header-inner {
             width: 100%;
             margin: 0 auto;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            gap: var(--mynt-gap);
+            gap: var(--myntfp-gap);
         }
 
-        .mynt-lka .tool-brand {
+        .myntfp-lka .tool-brand {
             display: flex;
             align-items: center;
             gap: 0.75rem;
         }
 
-        .mynt-lka .tool-brand-icon {
+        .myntfp-lka .tool-brand-icon {
             width: 40px;
             height: 40px;
             background: rgba(255, 255, 255, 0.2);
@@ -86,21 +86,21 @@
             box-sizing: border-box;
         }
 
-        .mynt-lka .tool-brand h1 {
+        .myntfp-lka .tool-brand h1 {
             margin: 0;
             font-size: 1.25rem;
             font-weight: 700;
             letter-spacing: 0.02em;
         }
 
-        .mynt-lka .tool-brand span {
+        .myntfp-lka .tool-brand span {
             font-size: 0.75rem;
             opacity: 0.9;
             font-weight: 400;
         }
 
         /* ── Theme toggle ── */
-        .mynt-lka .theme-selector {
+        .myntfp-lka .theme-selector {
             display: flex;
             background: rgba(255, 255, 255, 0.2);
             border-radius: 10px;
@@ -108,7 +108,7 @@
             gap: 2px;
         }
 
-        .mynt-lka .theme-btn {
+        .myntfp-lka .theme-btn {
             padding: 0.4rem 0.9rem;
             border: none;
             border-radius: 8px;
@@ -121,22 +121,22 @@
             transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
-        .mynt-lka .theme-btn:hover {
+        .myntfp-lka .theme-btn:hover {
             color: var(--whitishColor-blue);
             background: rgba(255, 255, 255, 0.15);
         }
 
-        .mynt-lka .theme-btn.active {
+        .myntfp-lka .theme-btn.active {
             background: var(--whitishColor-blue);
             color: var(--darkerColor-blue);
         }
 
-        .mynt-lka .theme-btn.active:hover {
+        .myntfp-lka .theme-btn.active:hover {
             background: rgba(255, 255, 255, 0.95);
         }
 
         /* ── Layout ── */
-        .mynt-lka main {
+        .myntfp-lka main {
             flex: 1;
             padding: 1.5rem;
             max-width: 900px;
@@ -145,26 +145,26 @@
         }
 
         /* ── Cards ── */
-        .mynt-lka .card {
+        .myntfp-lka .card {
             background: var(--accentLightTint-blue);
-            border-radius: var(--mynt-round);
+            border-radius: var(--myntfp-round);
             padding: 1.25rem 1.5rem;
             margin-bottom: 1.25rem;
-            box-shadow: var(--mynt-shadow);
+            box-shadow: var(--myntfp-shadow);
             border: 1px solid rgba(67, 130, 236, 0.15);
             transition: box-shadow 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
-            animation: mynt-cardFade 0.5s cubic-bezier(0.4, 0, 0.2, 1) backwards;
+            animation: myntfp-cardFade 0.5s cubic-bezier(0.4, 0, 0.2, 1) backwards;
         }
 
-        .mynt-lka .card:nth-child(1) {
+        .myntfp-lka .card:nth-child(1) {
             animation-delay: 0.1s;
         }
 
-        .mynt-lka .card:nth-child(2) {
+        .myntfp-lka .card:nth-child(2) {
             animation-delay: 0.2s;
         }
 
-        @keyframes mynt-cardFade {
+        @keyframes myntfp-cardFade {
             from {
                 opacity: 0;
                 transform: translateY(16px);
@@ -176,22 +176,22 @@
             }
         }
 
-        .mynt-lka.dark-mode .card {
+        .myntfp-lka.dark-mode .card {
             background: rgba(54, 105, 178, 0.22);
             border-color: rgba(67, 130, 236, 0.25);
             box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
         }
 
-        .mynt-lka .card:hover {
-            box-shadow: var(--mynt-shadow-hover);
+        .myntfp-lka .card:hover {
+            box-shadow: var(--myntfp-shadow-hover);
             transform: translateY(-2px);
         }
 
-        .mynt-lka.dark-mode .card:hover {
+        .myntfp-lka.dark-mode .card:hover {
             box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
         }
 
-        .mynt-lka .card-title {
+        .myntfp-lka .card-title {
             font-size: 1.1rem;
             font-weight: 600;
             color: var(--textColorDark-blue);
@@ -201,11 +201,11 @@
             gap: 0.5rem;
         }
 
-        .mynt-lka.dark-mode .card-title {
+        .myntfp-lka.dark-mode .card-title {
             color: var(--whitishColor-blue);
         }
 
-        .mynt-lka .card-title::before {
+        .myntfp-lka .card-title::before {
             content: "";
             width: 4px;
             height: 1.1rem;
@@ -214,7 +214,7 @@
         }
 
         /* ── Intro text ── */
-        .mynt-lka .intro-text {
+        .myntfp-lka .intro-text {
             color: var(--textColorDark-blue);
             opacity: 0.9;
             font-size: 0.95rem;
@@ -222,18 +222,18 @@
             margin: 0 0 1.5rem 0;
         }
 
-        .mynt-lka.dark-mode .intro-text {
+        .myntfp-lka.dark-mode .intro-text {
             color: rgba(255, 255, 255, 0.9);
         }
 
         /* ── Lists ── */
-        .mynt-lka ul {
+        .myntfp-lka ul {
             list-style: none;
             padding: 0;
             margin: 0;
         }
 
-        .mynt-lka .key-item {
+        .myntfp-lka .key-item {
             display: flex;
             align-items: center;
             gap: 0.75rem;
@@ -244,43 +244,43 @@
             font-size: 0.9rem;
         }
 
-        .mynt-lka .key-item.missing {
+        .myntfp-lka .key-item.missing {
             background: var(--bg-color-red);
             border-left: 4px solid var(--darkerColor-red);
             color: var(--textColorDark-red);
         }
 
-        .mynt-lka .key-item.missing label {
+        .myntfp-lka .key-item.missing label {
             display: flex;
             align-items: center;
             gap: 0.6rem;
         }
 
-        .mynt-lka .key-item.extra {
+        .myntfp-lka .key-item.extra {
             background: color-mix(in srgb, var(--accentLightTint-blue) 80%, var(--bg-color-blue));
             border-left: 4px solid var(--darkerColor-blue);
         }
 
-        .mynt-lka.dark-mode .key-item.extra {
+        .myntfp-lka.dark-mode .key-item.extra {
             background: rgba(54, 105, 178, 0.4);
         }
 
-        .mynt-lka .key-item.complete {
+        .myntfp-lka .key-item.complete {
             background: var(--bg-color-green);
             border-left: 4px solid var(--darkerColor-green);
             color: var(--textColorDark-green);
             fill: var(--darkerColor-green);
         }
 
-        .mynt-lka .key-item.checked {
+        .myntfp-lka .key-item.checked {
             opacity: 0.5;
         }
 
-        .mynt-lka .key-item.checked code {
+        .myntfp-lka .key-item.checked code {
             text-decoration: line-through;
         }
 
-        .mynt-lka .key-item code {
+        .myntfp-lka .key-item code {
             background-color: rgba(0, 0, 0, 0.06);
             padding: 0.25rem 0.5rem;
             border-radius: 6px;
@@ -288,7 +288,7 @@
         }
 
         /* ── Checkbox ── */
-        .mynt-lka input[type="checkbox"] {
+        .myntfp-lka input[type="checkbox"] {
             appearance: none;
             -webkit-appearance: none;
             width: 20px;
@@ -300,15 +300,15 @@
             transition: transform 0.15s ease, background-color 0.2s ease, border-color 0.2s ease;
         }
 
-        .mynt-lka input[type="checkbox"]:hover {
+        .myntfp-lka input[type="checkbox"]:hover {
             transform: scale(1.08);
         }
 
-        .mynt-lka input[type="checkbox"]:active {
+        .myntfp-lka input[type="checkbox"]:active {
             transform: scale(0.95);
         }
 
-        .mynt-lka input[type="checkbox"]:checked {
+        .myntfp-lka input[type="checkbox"]:checked {
             background: var(--darkerColor-red);
             border-color: var(--darkerColor-red);
             background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23fff"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>');
@@ -318,11 +318,11 @@
         }
 
         /* ── Language groups ── */
-        .mynt-lka .language-group:not(:last-child) {
+        .myntfp-lka .language-group:not(:last-child) {
             margin-bottom: 1rem;
         }
 
-        .mynt-lka .language-group-header {
+        .myntfp-lka .language-group-header {
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -338,29 +338,29 @@
             transition: background 0.2s ease, transform 0.2s ease;
         }
 
-        .mynt-lka .language-group-header:hover {
+        .myntfp-lka .language-group-header:hover {
             transform: translateX(4px);
             background: color-mix(in srgb, var(--bg-color-blue) 90%, var(--darkColor-blue));
         }
 
-        .mynt-lka .language-group-header:active {
+        .myntfp-lka .language-group-header:active {
             transform: translateX(2px);
         }
 
-        .mynt-lka .language-group-header:focus-visible {
+        .myntfp-lka .language-group-header:focus-visible {
             outline: 2px solid var(--darkColor-blue);
             outline-offset: 2px;
         }
 
-        .mynt-lka.dark-mode .language-group-header {
+        .myntfp-lka.dark-mode .language-group-header {
             background: rgba(54, 105, 178, 0.35);
         }
 
-        .mynt-lka.dark-mode .language-group-header:hover {
+        .myntfp-lka.dark-mode .language-group-header:hover {
             background: rgba(54, 105, 178, 0.5);
         }
 
-        .mynt-lka .language-group-header::before {
+        .myntfp-lka .language-group-header::before {
             content: "▼";
             font-size: 0.7rem;
             margin-right: 0.5rem;
@@ -370,35 +370,35 @@
             flex-shrink: 0;
         }
 
-        .mynt-lka .language-group.collapsed .language-group-header::before {
+        .myntfp-lka .language-group.collapsed .language-group-header::before {
             transform: rotate(-90deg);
         }
 
-        .mynt-lka .language-group-header-text {
+        .myntfp-lka .language-group-header-text {
             font-size: 0.95rem;
             font-weight: 600;
             color: var(--textColorDark-blue);
         }
 
-        .mynt-lka.dark-mode .language-group-header-text {
+        .myntfp-lka.dark-mode .language-group-header-text {
             color: var(--whitishColor-blue);
         }
 
         /* ── Group expand animation ── */
-        .mynt-lka .language-group ul {
+        .myntfp-lka .language-group ul {
             overflow: hidden;
             padding: 0.5rem 0 0 1rem;
         }
 
-        .mynt-lka .language-group.collapsed ul {
+        .myntfp-lka .language-group.collapsed ul {
             display: none;
         }
 
-        .mynt-lka .language-group:not(.collapsed) ul {
-            animation: mynt-groupExpand 0.3s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+        .myntfp-lka .language-group:not(.collapsed) ul {
+            animation: myntfp-groupExpand 0.3s cubic-bezier(0.4, 0, 0.2, 1) forwards;
         }
 
-        @keyframes mynt-groupExpand {
+        @keyframes myntfp-groupExpand {
             from {
                 opacity: 0;
             }
@@ -409,12 +409,12 @@
         }
 
         /* Staggered item animation via --i CSS custom property set in JS */
-        .mynt-lka .language-group:not(.collapsed) .key-item {
-            animation: mynt-itemSlide 0.25s cubic-bezier(0.4, 0, 0.2, 1) backwards;
+        .myntfp-lka .language-group:not(.collapsed) .key-item {
+            animation: myntfp-itemSlide 0.25s cubic-bezier(0.4, 0, 0.2, 1) backwards;
             animation-delay: calc(var(--i, 0) * 30ms);
         }
 
-        @keyframes mynt-itemSlide {
+        @keyframes myntfp-itemSlide {
             from {
                 opacity: 0;
                 transform: translateX(-8px);
@@ -427,39 +427,39 @@
         }
 
         /* ── Key counts badges ── */
-        .mynt-lka .key-counts {
+        .myntfp-lka .key-counts {
             display: flex;
             gap: 1rem;
             font-size: 0.8rem;
             font-weight: 500;
         }
 
-        .mynt-lka .key-counts .missing-count {
+        .myntfp-lka .key-counts .missing-count {
             color: var(--darkerColor-red);
             padding: 0.16rem 0.6rem;
             border-radius: 20px;
             outline: 1px solid var(--darkerColor-red);
         }
 
-        .mynt-lka .key-counts .extra-count {
+        .myntfp-lka .key-counts .extra-count {
             color: var(--darkerColor-blue);
             padding: 0.16rem 0.6rem;
             border-radius: 20px;
             outline: 1px solid var(--darkerColor-blue);
         }
 
-        .mynt-lka.dark-mode .key-counts .missing-count {
+        .myntfp-lka.dark-mode .key-counts .missing-count {
             color: #ff9999;
             outline-color: rgba(255, 153, 153, 0.9);
         }
 
-        .mynt-lka.dark-mode .key-counts .extra-count {
+        .myntfp-lka.dark-mode .key-counts .extra-count {
             color: var(--bg-color-blue);
             outline-color: var(--bg-color-blue);
         }
 
         /* ── Alert boxes ── */
-        .mynt-lka .alert-box {
+        .myntfp-lka .alert-box {
             padding: 1rem 1.25rem;
             border-radius: 12px;
             margin-bottom: 1rem;
@@ -467,12 +467,12 @@
             display: none;
         }
 
-        .mynt-lka .alert-box.show {
+        .myntfp-lka .alert-box.show {
             display: block;
-            animation: mynt-alertSlide 0.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+            animation: myntfp-alertSlide 0.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
         }
 
-        @keyframes mynt-alertSlide {
+        @keyframes myntfp-alertSlide {
             from {
                 opacity: 0;
                 transform: translateY(-8px);
@@ -484,32 +484,32 @@
             }
         }
 
-        .mynt-lka #incomplete-message {
+        .myntfp-lka #incomplete-message {
             background: var(--accentLightTint-red);
             color: var(--textColorDark-red);
             border-left: 4px solid var(--darkerColor-red);
         }
 
-        .mynt-lka #extra-keys-message {
+        .myntfp-lka #extra-keys-message {
             background: color-mix(in srgb, var(--accentLightTint-blue) 70%, var(--bg-color-blue));
             color: var(--textColorDark-blue);
             border-left: 4px solid var(--darkerColor-blue);
         }
 
-        .mynt-lka.dark-mode #extra-keys-message {
+        .myntfp-lka.dark-mode #extra-keys-message {
             background: rgba(54, 105, 178, 0.35);
             color: rgba(255, 255, 255, 0.95);
             border-left-color: var(--darkColor-blue);
         }
 
-        .mynt-lka.dark-mode #incomplete-message {
+        .myntfp-lka.dark-mode #incomplete-message {
             background: rgba(178, 53, 53, 0.25);
             color: #ffb3b3;
             border-left-color: var(--darkerColor-red);
         }
 
         /* ── Results heading ── */
-        .mynt-lka .results-section h2 {
+        .myntfp-lka .results-section h2 {
             font-size: 1.25rem;
             font-weight: 600;
             text-align: center;
@@ -517,26 +517,26 @@
             color: var(--textColorDark-blue);
         }
 
-        .mynt-lka.dark-mode .results-section h2 {
+        .myntfp-lka.dark-mode .results-section h2 {
             color: var(--whitishColor-blue);
         }
 
         /* ── Scrollbar ── */
-        .mynt-lka ::-webkit-scrollbar {
+        .myntfp-lka ::-webkit-scrollbar {
             width: 8px;
             height: 8px;
         }
 
-        .mynt-lka ::-webkit-scrollbar-track {
+        .myntfp-lka ::-webkit-scrollbar-track {
             background: transparent;
         }
 
-        .mynt-lka ::-webkit-scrollbar-thumb {
+        .myntfp-lka ::-webkit-scrollbar-thumb {
             background: var(--darkColor-blue);
             border-radius: 4px;
         }
 
-        .mynt-lka ::-webkit-scrollbar-thumb:hover {
+        .myntfp-lka ::-webkit-scrollbar-thumb:hover {
             background: var(--darkerColor-blue);
         }
     </style>
@@ -574,13 +574,13 @@
     <script src="../locales/sv.js"></script>
 </head>
 
-<body id="mynt-lka" class="mynt-lka">
+<body id="myntfp-lka" class="myntfp-lka">
     <header class="tool-header">
         <div class="tool-header-inner">
             <div class="tool-brand">
-                <img class="tool-brand-icon" src="../favicon/icon128.png" alt="MYNT" width="40" height="40">
+                <img class="tool-brand-icon" src="../favicon/icon128.png" alt="MYNTFP" width="40" height="40">
                 <div>
-                    <h1>MYNT Language Key Analysis Tool</h1>
+                    <h1>MYNTFP Language Key Analysis Tool</h1>
                     <span>Compare translation keys against English</span>
                 </div>
             </div>
@@ -594,7 +594,7 @@
         <div id="complete" class="card"></div>
         <section class="card results-section">
             <h2>Language Key Analysis Results</h2>
-            <p class="intro-text"> This tool analyzes language keys across the MYNT project. Any language that has
+            <p class="intro-text"> This tool analyzes language keys across the MYNTFP project. Any language that has
                 missing keys or contains keys not present in English is listed below. </p>
             <div id="incomplete-message" class="alert-box"> The following languages have keys that are missing compared
                 to English. </div>
@@ -608,7 +608,7 @@
         const languages = { ar_SA, az, bn, cs, de, el, en, es, fa, fr, hi, hu, idn, it, ja, ko, mr, ne, pl, pt, ru, sl, sv, ta, th, tr, uk, ur, uz, vi, zh, zh_TW };
 
         // ─── DOM refs ─────────────────────────────────────────────────────────────
-        const bodyEl = document.getElementById("mynt-lka");
+        const bodyEl = document.getElementById("myntfp-lka");
         const resultsDiv = document.getElementById("results");
         const completeDiv = document.getElementById("complete");
         const incompleteMsg = document.getElementById("incomplete-message");
@@ -796,11 +796,11 @@
             themeDark.classList.toggle("active", isDark);
 
             if (save) {
-                localStorage.setItem("mynt-theme", theme);
+                localStorage.setItem("myntfp-theme", theme);
             }
         }
 
-        const savedTheme = localStorage.getItem("mynt-theme");
+        const savedTheme = localStorage.getItem("myntfp-theme");
 
         if (savedTheme) {
             setTheme(savedTheme, false);
@@ -809,7 +809,7 @@
         }
 
         mediaQuery.addEventListener("change", (e) => {
-            if (!localStorage.getItem("mynt-theme")) {
+            if (!localStorage.getItem("myntfp-theme")) {
                 setTheme(e.matches ? "dark" : "light", false);
             }
         });

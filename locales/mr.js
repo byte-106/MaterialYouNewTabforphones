@@ -184,7 +184,7 @@ const mr = {
     "braveThemeInfo": '<a href="https://chromewebstore.google.com/category/themes/" target="_blank">क्रोम थीम स्टोर</a> वर जाऊन, आपल्या पसंतीची थीम डाउनलोड करा आणि लागू करा',
     "firefoxThemeInfo": '<a href="https://addons.mozilla.org/firefox/themes/" target="_blank">फायरफॉक्स थीम्स</a> वर जाऊन, आपल्या आवडीचा थीम डाउनलोड करा आणि लागू करा',
     "updateFirefoxHomepage": "होमपेज अपडेट करा",
-    "updateFirefoxHomepageInfo": 'आपल्या होमपेजला सुद्धा नवीन टॅबाप्रमाणे बदलण्यासाठी, <a href="https://github.com/prem-k-r/MaterialYouNewTab#-firefox\" target="_blank">या लिंक</a> वर जा आणि दिलेल्या सूचनांचे पालन करा.',
+    "updateFirefoxHomepageInfo": 'आपल्या होमपेजला सुद्धा नवीन टॅबाप्रमाणे बदलण्यासाठी, <a href="https://github.com/byte-106/MaterialYouNewTabforphones#-firefox\" target="_blank">या लिंक</a> वर जा आणि दिलेल्या सूचनांचे पालन करा.',
     "dontShowTips": "हे पुन्हा दाखवू नका",
 
     // Footer Toast

@@ -1,5 +1,5 @@
 /*
- * Material You New Tab
+ * Material You New Tab for Phones
  * Copyright (c) 2024-2026 Prem, 2023-2025 XengShi
  * Licensed under the GNU General Public License v3.0 (GPL-3.0)
  */
@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const MAX_SHORTCUTS = 50;
     const PLACEHOLDER = {
         get name() { return translations[currentLanguage]?.shortcutDefaultName || translations["en"].shortcutDefaultName; },
-        url: "https://github.com/prem-k-r/MaterialYouNewTab",
+        url: "https://github.com/byte-106/MaterialYouNewTabforphones",
         get inputName() { return translations[currentLanguage]?.shortcutInputName || translations["en"].shortcutInputName; },
         get inputUrl() { return translations[currentLanguage]?.shortcutInputUrl || translations["en"].shortcutInputUrl; },
         get inputIcon() { return translations[currentLanguage]?.shortcutInputIcon || translations["en"].shortcutInputIcon; },

@@ -1,5 +1,5 @@
 /* 
- * Material You New Tab
+ * Material You New Tab for Phones
  * Copyright (c) 2024-2026 Prem, 2023-2025 XengShi
  * Licensed under the GNU General Public License v3.0 (GPL-3.0)
  * You should have received a copy of the GNU General Public License along with this program. 
@@ -4868,11 +4868,8 @@ body[data-bg="wallpaper"] .dropdown-content {
 		top: 0;
 	}
 	.searchbar {
-		width: 94vw;
-		transform-origin: top left;
-		scale: 2;
+		width: min(94vw, 30rem);
 		margin-top: -1rem;
-		margin-left: calc(320px - 94vw);
 		margin-bottom: 3rem;
 
 		& #searchQ {
@@ -5863,3 +5860,11 @@ body[data-bg="wallpaper"] .dropdown-content {
 	color: var(--darkColor-dark);
 }
 /* ------------ End of Toast---------- */
+
+/* ------- Mobile refinements (phones) ------- */
+@media screen and (max-width: 768px) {
+	body {
+		/* Use dynamic viewport height so content is not hidden behind mobile browser UI */
+		min-height: 100dvh;
+	}
+}

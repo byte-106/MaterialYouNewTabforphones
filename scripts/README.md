@@ -10,7 +10,7 @@
     - Add the following copyright block at the top of your new script file:
       ```javascript
       /* 
-       * Material You New Tab
+       * Material You New Tab for Phones
        * Copyright (c) 2024-2026 Prem, 2023-2025 XengShi
        * Licensed under the GNU General Public License v3.0 (GPL-3.0)
        */

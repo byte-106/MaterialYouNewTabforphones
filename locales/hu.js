@@ -195,7 +195,7 @@ const hu = {
   "braveThemeInfo": "Látogassa meg a <a href='https://chromewebstore.google.com/category/themes/' target='_blank'>Chrome Theme Store</a>, töltse le és alkalmazza a kívánt témát.",
   "firefoxThemeInfo": "Látogassa meg a <a href='https://addons.mozilla.org/firefox/themes/' target='_blank'>Firefox Themes</a>, töltse le és alkalmazza a kívánt témát.",
   "updateFirefoxHomepage": "Kezdőlap frissítése",
-  "updateFirefoxHomepageInfo": "Ha a kezdőlapot is új lapként szeretné kezelni, látogasson el <a href='https://github.com/prem-k-r/MaterialYouNewTab#-firefox' target='_blank'>erre a linkre</a> és kövesse a lépéseket.",
+  "updateFirefoxHomepageInfo": "Ha a kezdőlapot is új lapként szeretné kezelni, látogasson el <a href='https://github.com/byte-106/MaterialYouNewTabforphones#-firefox' target='_blank'>erre a linkre</a> és kövesse a lépéseket.",
   "dontShowTips": "Ne mutassa újra",
 
   // Footer Toast

@@ -191,7 +191,7 @@ const ja = {
     "braveThemeInfo": "<a href=\"https://chromewebstore.google.com/category/themes/\" target=\"_blank\">Chrome テーマストア</a>からテーマを適用してください。",
     "firefoxThemeInfo": "<a href=\"https://addons.mozilla.org/firefox/themes/\" target=\"_blank\">Firefox テーマ</a>からテーマを適用してください。",
     "updateFirefoxHomepage": "ホームページを更新",
-    "updateFirefoxHomepageInfo": "ホームページも新しいタブと同じように変更するには、<a href=\"https://github.com/prem-k-r/MaterialYouNewTab#-firefox\" target=\"_blank\">こちらのリンク</a>の手順に従ってください。",
+    "updateFirefoxHomepageInfo": "ホームページも新しいタブと同じように変更するには、<a href=\"https://github.com/byte-106/MaterialYouNewTabforphones#-firefox\" target=\"_blank\">こちらのリンク</a>の手順に従ってください。",
     "dontShowTips": "今後表示しない",
 
     // Footer Toast

@@ -183,7 +183,7 @@ const uz = {
     "braveThemeInfo": "<a href=\"https://chromewebstore.google.com/category/themes/\" target=\"_blank\">Chrome Theme Store</a> sahifasiga o'ting, kengaytmaga mos mavzuni yuklab o'rnating.",
     "firefoxThemeInfo": "<a href=\"https://addons.mozilla.org/firefox/themes/\" target=\"_blank\">Firefox Themes</a> sahifasiga o'ting, mos mavzuni yuklab o'rnating.",
     "updateFirefoxHomepage": "Bosh sahifani yangilash",
-    "updateFirefoxHomepageInfo": "Yangi varaq bilan bir xil bosh sahifa qilish uchun <a href=\"https://github.com/prem-k-r/MaterialYouNewTab#-firefox\" target=\"_blank\">ushbu havola</a> orqali o'ting va ko'rsatmalarga amal qiling.",
+    "updateFirefoxHomepageInfo": "Yangi varaq bilan bir xil bosh sahifa qilish uchun <a href=\"https://github.com/byte-106/MaterialYouNewTabforphones#-firefox\" target=\"_blank\">ushbu havola</a> orqali o'ting va ko'rsatmalarga amal qiling.",
     "dontShowTips": "Qayta ko'rsatilmasin",
 
     // Footer Toast
