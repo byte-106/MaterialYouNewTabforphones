@@ -4900,6 +4900,7 @@ body[data-bg="wallpaper"] .dropdown-content {
 		transform-origin: top left;
 		scale: 0.85;
 		position: fixed;
+		grid-template-columns: minmax(0, 330px);
 	}
 	.googleAppsCont {
 		transform-origin: top right;
